@@ -1,0 +1,32 @@
+/* =====skillssection==== ========================-----------------=================== */
+
+#skills-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#skills-text,
+#skills,
+#projects-section h2 {
+  text-align: center;
+}
+#skills-text {
+  font-size: 1.8rem;
+}
+#skills-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 10rem 10rem 0 10rem;
+  gap: 5rem;
+
+  align-items: center;
+
+  /* display: flex; */
+}
+#skills-gallery div {
+  text-align: center;
+}
+
+#skills-gallery img {
+  width: 12rem;
+}

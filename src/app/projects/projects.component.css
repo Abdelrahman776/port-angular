@@ -1,0 +1,42 @@
+/* ////projects section///////////////////////// */
+
+.project-container {
+  box-shadow: 0 0 3px 3px rgba(0, 255, 255, 0.15);
+
+  border-radius: 16px;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.project-text {
+  font-size: 2rem;
+}
+
+.project-img {
+  max-width: 64rem !important;
+  /* max-height: 44rem!important; */
+}
+
+/* footer==================== */
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.phone-container,
+.email-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

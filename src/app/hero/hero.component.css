@@ -1,0 +1,78 @@
+/* -----
+--herosection------------------------------------------    */
+
+#hero-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 2.2rem 1.8rem 2.2rem;
+}
+#hey {
+  margin: 0;
+  font-weight: 600;
+}
+#name {
+  margin-top: 0.8rem;
+}
+
+#get-in-touch {
+  margin-top: 13rem;
+  margin-left: 1.5re;
+  font-weight: 600;
+  text-shadow: #0676a4 0 0 1rem;
+}
+
+div .normal-btn {
+  display: inline-block;
+  font-size: 2rem !important;
+  padding: 0.8rem 2.2rem;
+  box-shadow: 15px 15px 10px 6px rgba(0, 0, 255, 0.2) !important;
+  margin: 2rem 0 2rem 10rem;
+}
+
+div .normal-btn:active,
+div .normal-btn:hover,
+div .normal-btn:focus {
+  box-shadow: none !important;
+}
+
+svg {
+  fill: white;
+  width: 4rem;
+  height: 4rem;
+}
+svg:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-out;
+}
+.main-links {
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.contacts > a {
+  align-self: center;
+}
+
+.intro-text {
+  align-self: center;
+}
+
+.hero-img {
+  width: 60rem;
+  /* height: 60rem; */
+  aspect-ratio: 1 / 1;
+  background-image: url("images/a3.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 16px;
+}
+/* display popup when clicking on email or phone to tell user that it is copied to clipboard////////////////////////// */

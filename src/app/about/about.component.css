@@ -1,0 +1,23 @@
+/* <!-- ----about section ---------------------------> */
+#about-section {
+  display: flex;
+  justify-content: space-around;
+}
+.about-text {
+  max-width: 60rem;
+}
+
+.about-text p {
+  font-size: 1.8rem;
+}
+
+.about-img {
+  width: 40rem;
+  aspect-ratio: 9/16;
+  background-image: url("images/a2.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+}
